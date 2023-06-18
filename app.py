@@ -110,7 +110,7 @@ def main():
      
  
   
- if st.button("Preduct"):
+ if st.button("Predict"):
     result=predict_depression(Gender, Age, Education, Interest,
        Energy, Self_Worth, Concentration, Restlessness,
         Job,  Study_Hours,
