@@ -115,9 +115,12 @@ def main():
        Energy, Self_Worth, Concentration, Restlessness,
         Job,  Study_Hours,
        Gadgets_Count, Social_Media_Hours)
-    st.success("Depression level:")   
-    st.subheader(result)
-    
+    st.success("Depression level:")    
+    if(result==0):
+       res="Not depressed "   
+    else:
+       res="Depressed"   
+    st.subheader(res)   
 if __name__ == "__main__": 
  main()
 
